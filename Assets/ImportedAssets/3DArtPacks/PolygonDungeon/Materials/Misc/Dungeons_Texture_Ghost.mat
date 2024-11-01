@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dungeons_Texture_Ghost
+  m_Shader: {fileID: 4800000, guid: 5d828b280155912429aa717d34cd8879, type: 3}
+  m_Parent: {fileID: 2100000, guid: 685714bc4595f7b4c8e75a582e09e6d3, type: 2}
+  m_ModifiedSerializedProperties: 24
+  m_ValidKeywords:
+  - _FADE_TOGGLE_ON
+  m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _EMISSION
+  - _FLIPBOOKBLENDING_OFF
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - DepthOnly
+  - SHADOWCASTER
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _DstBlend: 10
+    - _Fade_Toggle: 1
+    - _Metalic: 0.908
+    - _QueueControl: 0
+    - _RimPower: 1.33
+    - _SrcBlend: 1
+    - _Transparency: 0.289
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColour: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0, g: 0.7798742, b: 0.7187076, a: 0.5294118}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3426226574393161710
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
