@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc83feb97788ea4bb04184fddf65e6f, type: 3}
+  m_Name: Greed_Day01
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 58fb807b7547d9644b463f1dbc6ebbc4, type: 2}
+  - {fileID: 11400000, guid: 5d4b8c7c6679cac47ac981b984fc0acc, type: 2}
+  - {fileID: 11400000, guid: 5209edcda36e06e4eb98d0ab0375112c, type: 2}
+  - {fileID: 11400000, guid: 37644cd85fe23674782af653943d529d, type: 2}
