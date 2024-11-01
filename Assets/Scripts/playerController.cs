@@ -27,7 +27,7 @@ public class playerController : MonoBehaviour
     private GameObject _currentCharacterModel;
 
     [Header("Player Stats - Movement Mods")]
-    private float _currentSpeed;
+    float _currentSpeed;
     [Range(0.0f, 10.0f)][SerializeField] private float _origSpeed;
     [Range(0.0f, 10.0f)][SerializeField] float _walkSpeed;
     [Range(0.0f, 10.0f)][SerializeField] float _crouchMod;

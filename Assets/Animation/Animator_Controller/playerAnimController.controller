@@ -677,7 +677,7 @@ MonoBehaviour:
   events:
   - eventName: StepR
     triggerTime: 0.657
-    clipsMask: 4090
+    clipsMask: 4094
     cloneFormation: 0
     cloneSpacing: 0.74
     useBatchSlider: 1
@@ -693,9 +693,10 @@ MonoBehaviour:
     - 0
     - 0
     - 0
+    - 0
   - eventName: StepL
     triggerTime: 0.107
-    clipsMask: 4090
+    clipsMask: 4094
     cloneFormation: 0
     cloneSpacing: 1
     useBatchSlider: 1
@@ -711,7 +712,8 @@ MonoBehaviour:
     - 0
     - 0
     - 0
-  isPreviewing: 0
+    - 0
+  isPreviewing: 1
   foldout: 1
 --- !u!206 &5886844478869139196
 BlendTree:

@@ -50968,7 +50968,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 3854063c39f53b843bc7f63868504d2b,
+        type: 2}
     - target: {fileID: 653379528939640615, guid: 33d1fdd64c4f8be4dbf36fc70affeb60,
         type: 3}
       propertyPath: 'actions.Array.data[0]'
@@ -95159,9 +95160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d9f3869af4c87468695b9c3b8e6eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controllerType: 3
-  distanceToCheckUnderFeet: 0.3
-  runThreshold: 1.1
+  ignoredMaterials: []
+  materialCheckDistance: 2
   leftFoot: {fileID: 361945945}
   rightFoot: {fileID: 1462179983}
   footStepSoundLibraries:
@@ -95185,6 +95185,7 @@ MonoBehaviour:
   fallBackFootstepSound:
     clips: []
     mixerGroup: {fileID: 0}
+    template: {fileID: 0}
     loop: 0
     playOnAwake: 0
     frequentSound: 0
@@ -95210,7 +95211,6 @@ MonoBehaviour:
     frequentParticle: 0
     particlePositionOffset: {x: 0, y: 0, z: 0}
     particleRotationOffset: {x: 0, y: 0, z: 0}
-  ignoredMaterials: []
   enableDebugVisualization: 0
   debugRayColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &667007511
@@ -246987,7 +246987,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 542cb633ef3e8694bb397c4b3670e778,
+        type: 2}
     - target: {fileID: 5437129261170212385, guid: 41cda6b994c24ec4f9140961d54d62a9,
         type: 3}
       propertyPath: m_Name
@@ -317970,7 +317971,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 772a95b694c5d784889bed17b528b942,
+        type: 2}
     - target: {fileID: 6640277959843805768, guid: d5ccfa39aaa1e4f44b2f0e0a0b5ededd,
         type: 3}
       propertyPath: 'actions.Array.data[0]'
@@ -317995,7 +317997,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: f16cca802ba87664dafc5d6598866aa0,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -318231,7 +318234,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: cddd23783d15472429ddbe9995344c2d,
+        type: 2}
     - target: {fileID: 3674995151944024693, guid: ca439985d07c2ef4eb086364d1e605e7,
         type: 3}
       propertyPath: 'actions.Array.data[0]'
@@ -318284,7 +318288,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: a49c7e2cc9778094d921cbf30a82bcaf,
+        type: 2}
     - target: {fileID: 1279529078677168863, guid: 923293f3973069b459cf686a8a0e13ac,
         type: 3}
       propertyPath: 'actions.Array.data[0]'
@@ -318354,7 +318359,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: ea31f1d94332e6040a847462f04e3b57,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -318508,7 +318514,8 @@ PrefabInstance:
         type: 3}
       propertyPath: config
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 043f39de911ed3d4abd7f27d2e269319,
+        type: 2}
     - target: {fileID: 5685082407033035150, guid: 2ab652a92fe14b944843356be87283b5,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value

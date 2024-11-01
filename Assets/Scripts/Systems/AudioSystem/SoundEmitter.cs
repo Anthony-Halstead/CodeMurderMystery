@@ -45,35 +45,64 @@ public class SoundEmitter : MonoBehaviour {
 
     public void Initialize(SoundData data)
     {
-        Debug.Log("iNITIALIZING SOUND");
         Data = data;
-        audioSource.clip = data.clips[UnityEngine.Random.Range(0,data.clips.Length)];
+        audioSource.clip = data.clips[UnityEngine.Random.Range(0, data.clips.Length)];
         audioSource.outputAudioMixerGroup = data.mixerGroup;
-        audioSource.loop = data.loop;
-        audioSource.playOnAwake = data.playOnAwake;
+        if (data.template != null)
+        {       
+            audioSource.loop = data.template.loop;
+            audioSource.playOnAwake = data.template.playOnAwake;
 
-        audioSource.mute = data.mute;
-        audioSource.bypassEffects = data.bypassEffects;
-        audioSource.bypassListenerEffects = data.bypassListenerEffects;
-        audioSource.bypassReverbZones = data.bypassReverbZones;
+            audioSource.mute = data.template.mute;
+            audioSource.bypassEffects = data.template.bypassEffects;
+            audioSource.bypassListenerEffects = data.template.bypassListenerEffects;
+            audioSource.bypassReverbZones = data.template.bypassReverbZones;
 
-        audioSource.priority = data.priority;
-        audioSource.volume = data.volume;
-        audioSource.pitch = data.pitch;
-        audioSource.panStereo = data.panStereo;
-        audioSource.spatialBlend = data.spatialBlend;
-        audioSource.reverbZoneMix = data.reverbZoneMix;
-        audioSource.dopplerLevel = data.dopplerLevel;
-        audioSource.spread = data.spread;
+            audioSource.priority = data.template.priority;
+            audioSource.volume = data.volume;
+            audioSource.pitch = data.template.pitch;
+            audioSource.panStereo = data.template.panStereo;
+            audioSource.spatialBlend = data.template.spatialBlend;
+            audioSource.reverbZoneMix = data.template.reverbZoneMix;
+            audioSource.dopplerLevel = data.template.dopplerLevel;
+            audioSource.spread = data.template.spread;
 
-        audioSource.minDistance = data.minDistance;
-        audioSource.maxDistance = data.maxDistance;
+            audioSource.minDistance = data.template.minDistance;
+            audioSource.maxDistance = data.template.maxDistance;
 
-        audioSource.ignoreListenerVolume = data.ignoreListenerVolume;
-        audioSource.ignoreListenerPause = data.ignoreListenerPause;
+            audioSource.ignoreListenerVolume = data.template.ignoreListenerVolume;
+            audioSource.ignoreListenerPause = data.template.ignoreListenerPause;
 
-        audioSource.rolloffMode = data.rolloffMode;
+            audioSource.rolloffMode = data.template.rolloffMode;
+        }
+        else
+        {
 
+            audioSource.loop = data.loop;
+            audioSource.playOnAwake = data.playOnAwake;
+
+            audioSource.mute = data.mute;
+            audioSource.bypassEffects = data.bypassEffects;
+            audioSource.bypassListenerEffects = data.bypassListenerEffects;
+            audioSource.bypassReverbZones = data.bypassReverbZones;
+
+            audioSource.priority = data.priority;
+            audioSource.volume = data.volume;
+            audioSource.pitch = data.pitch;
+            audioSource.panStereo = data.panStereo;
+            audioSource.spatialBlend = data.spatialBlend;
+            audioSource.reverbZoneMix = data.reverbZoneMix;
+            audioSource.dopplerLevel = data.dopplerLevel;
+            audioSource.spread = data.spread;
+
+            audioSource.minDistance = data.minDistance;
+            audioSource.maxDistance = data.maxDistance;
+
+            audioSource.ignoreListenerVolume = data.ignoreListenerVolume;
+            audioSource.ignoreListenerPause = data.ignoreListenerPause;
+
+            audioSource.rolloffMode = data.rolloffMode;
+        }
     }
 
     public void WithRandomPitch(float min = -0.05f,float max = 0.05f)

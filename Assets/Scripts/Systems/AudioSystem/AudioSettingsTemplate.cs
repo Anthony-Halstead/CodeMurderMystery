@@ -1,19 +1,10 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-
-[Serializable]
-public class SoundData
+[CreateAssetMenu(fileName = "AudioSettingsTemplate", menuName = "Systems/Templates/AudioSettingsTemplate")]
+public class AudioSettingsTemplate : ScriptableObject
 {
-    //Add generic strategies for how to go through array
-    [Tooltip("The audio clip(s) that will be played.")]
-    public AudioClip[] clips;
-
-    [Tooltip("The Audio Mixer Group this sound will route to, allowing for grouped volume control and effects.")]
-    public AudioMixerGroup mixerGroup;
-    [Tooltip("Used to override the settings of this sound data. Useful if you have predefined settings you want to use on multiple " +
-        "sound datas.(does not override audio clips or mixer group )")]
-    public AudioSettingsTemplate template;
 
     [Tooltip("Should the audio clip loop when it reaches the end?")]
     public bool loop;

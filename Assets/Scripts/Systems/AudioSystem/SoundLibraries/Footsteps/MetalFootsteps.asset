@@ -66,64 +66,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 4820f9bc1151fff4c94668efcce9ad00, type: 3}
     mixerGroup: {fileID: -8395488432963329303, guid: 1bc6e4d3426d54948ac7c9073b2564bd,
       type: 2}
-    loop: 0
-    playOnAwake: 0
-    frequentSound: 1
-    mute: 0
-    bypassEffects: 0
-    bypassListenerEffects: 0
-    bypassReverbZones: 0
-    priority: 0
-    volume: 0.4
-    pitch: 1
-    panStereo: 0
-    spatialBlend: 1
-    reverbZoneMix: 0
-    dopplerLevel: 0
-    spread: 360
-    minDistance: 1
-    maxDistance: 5
-    ignoreListenerVolume: 0
-    ignoreListenerPause: 0
-    rolloffMode: 0
-  - clips:
-    - {fileID: 8300000, guid: d89a43b813727df4496f652710212de0, type: 3}
-    - {fileID: 8300000, guid: 4f81e2b176f61db4ca85d7960bbcf4f4, type: 3}
-    - {fileID: 8300000, guid: fb101d6c89ba02e419dfb2f60803966a, type: 3}
-    - {fileID: 8300000, guid: f8560415206885640a347b8bb8c1ccd2, type: 3}
-    - {fileID: 8300000, guid: 53cfd7e2f69c8d0408a3353af96cac44, type: 3}
-    - {fileID: 8300000, guid: 579d091ecdeec9047b116651fd15c9c1, type: 3}
-    - {fileID: 8300000, guid: 37da1568a288ced4990a0949320be139, type: 3}
-    - {fileID: 8300000, guid: 1d053bb180808da44ad8462b3f724a87, type: 3}
-    - {fileID: 8300000, guid: 2ea4bbad9c05a2c43827a15ef0c2a646, type: 3}
-    - {fileID: 8300000, guid: 1c63568894038e24892c09ae20933f9f, type: 3}
-    - {fileID: 8300000, guid: b3acda9edf7481b4dbc5643004b056a0, type: 3}
-    - {fileID: 8300000, guid: 31b7b3a70d2cbfa41884f56f476106d6, type: 3}
-    - {fileID: 8300000, guid: e239f845c11397d46832f1459290ede3, type: 3}
-    - {fileID: 8300000, guid: 4d07ea65a88d8b946a3fae78d1987693, type: 3}
-    - {fileID: 8300000, guid: 21b4275bf9a15f743b685109b5fa8f45, type: 3}
-    - {fileID: 8300000, guid: eddcede55a5b86d489abde4a32670119, type: 3}
-    - {fileID: 8300000, guid: e0b11ad32f74cfc43a45dfc6f9b207e7, type: 3}
-    - {fileID: 8300000, guid: 6c2b9b30a904fc7479b7a8ff151d37dd, type: 3}
-    - {fileID: 8300000, guid: 49ea5a5822daa814fa494573b9a1e56a, type: 3}
-    - {fileID: 8300000, guid: d891be11e78489945a5116278c506a47, type: 3}
-    - {fileID: 8300000, guid: 5ba3dade7c81b90499a834d01058a202, type: 3}
-    - {fileID: 8300000, guid: e786ac8710b8f1a40a8bd3662100826f, type: 3}
-    - {fileID: 8300000, guid: 28ab1753cd9776048aa5d58b323e983b, type: 3}
-    - {fileID: 8300000, guid: ba442238d6672b648b1d510c82dc371c, type: 3}
-    - {fileID: 8300000, guid: 63dbc65c868525e4ea4e8317c043617a, type: 3}
-    - {fileID: 8300000, guid: 33b64e3222cc37d4dbccb19fd5c496e6, type: 3}
-    - {fileID: 8300000, guid: b386eb3c1abc28d49bf23c977d41fa02, type: 3}
-    - {fileID: 8300000, guid: eb603e7856affaa4d8a5cdc9cfd278ee, type: 3}
-    - {fileID: 8300000, guid: 0ec87a4123f34e647a7f13895b17c396, type: 3}
-    - {fileID: 8300000, guid: be607fa37bac05446b5f9ffa54f6a6a7, type: 3}
-    - {fileID: 8300000, guid: 3d5e08a5d34ba894297630622bec6149, type: 3}
-    - {fileID: 8300000, guid: 67854275b0de191429f9f518ba419b3a, type: 3}
-    - {fileID: 8300000, guid: b16ac16040cab194d84d1d2b230aaa19, type: 3}
-    - {fileID: 8300000, guid: 13aca91137f079443a6297179c9bd022, type: 3}
-    - {fileID: 8300000, guid: a67a542f19fca594f9b341491253343a, type: 3}
-    mixerGroup: {fileID: -8395488432963329303, guid: 1bc6e4d3426d54948ac7c9073b2564bd,
-      type: 2}
+    template: {fileID: 11400000, guid: f587f29ca5fbe0d4c97658022a213ef7, type: 2}
     loop: 0
     playOnAwake: 0
     frequentSound: 1
