@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d58f722f72c5914f8484d1ea339df7a, type: 3}
+  m_Name: SandFootsteps
+  m_EditorClassIdentifier: 
+  data:
+  - clips:
+    - {fileID: 8300000, guid: 525fb36b831f88f47a26b5a84f87efbf, type: 3}
+    - {fileID: 8300000, guid: aa2f20e2b6386b346a43e3606f3e3e75, type: 3}
+    - {fileID: 8300000, guid: 509d4f65eed1c5548a1e67aadba80bf3, type: 3}
+    - {fileID: 8300000, guid: c548f82ae53202545bc3acf06b3b7408, type: 3}
+    - {fileID: 8300000, guid: 380d0ca350c8b30418dbf0c8fde63ad0, type: 3}
+    - {fileID: 8300000, guid: c11b653566183c747b6bc0834302de8e, type: 3}
+    - {fileID: 8300000, guid: 088730b7c54789648b9d6d4042d56057, type: 3}
+    - {fileID: 8300000, guid: 25d688ebf0bbe9448821495838d618ff, type: 3}
+    - {fileID: 8300000, guid: 8d73c7888b1896248b2966c80990cdbc, type: 3}
+    - {fileID: 8300000, guid: 3e58e0da31fa59c4c8971ab2225c8430, type: 3}
+    - {fileID: 8300000, guid: 425a9e51d00b953478af7122d8630f05, type: 3}
+    - {fileID: 8300000, guid: 6ccd0f03d313ae84aafe3da3b052b996, type: 3}
+    - {fileID: 8300000, guid: 51552209142c88342a92bb5f3a06cdc3, type: 3}
+    - {fileID: 8300000, guid: baf13a2b9378d8644a9eeba83706c689, type: 3}
+    - {fileID: 8300000, guid: 603c1c4ba29fc4d449151e0514cd2199, type: 3}
+    - {fileID: 8300000, guid: f6f7ef7852082914789dae31692677ce, type: 3}
+    - {fileID: 8300000, guid: 9c8758ef028f6ad40b7007a770f3d24c, type: 3}
+    - {fileID: 8300000, guid: 4f5942fbe6fc60948a98871bcca18bd4, type: 3}
+    - {fileID: 8300000, guid: fe032d44b3c8fe24c8e5cea6fc3ed1e9, type: 3}
+    - {fileID: 8300000, guid: 64c521476a2b19f4ab5edf8cfe1f71ef, type: 3}
+    - {fileID: 8300000, guid: c397e3f7e74d9674a855768225980e26, type: 3}
+    - {fileID: 8300000, guid: a58d5a69b434e8443ab346757c0351d6, type: 3}
+    - {fileID: 8300000, guid: a7b851001035d384a90cd41e43e99fa1, type: 3}
+    - {fileID: 8300000, guid: 2b204634b5003b348a660383ccf5c852, type: 3}
+    - {fileID: 8300000, guid: ca2c58451165b214bbec6d61409cc34c, type: 3}
+    - {fileID: 8300000, guid: f88b19b5926df3d4eb6ae4da125339f0, type: 3}
+    - {fileID: 8300000, guid: 3acec8e0004ef964fbd32abaa5e10172, type: 3}
+    - {fileID: 8300000, guid: d23d3d66c62e3f44bb886eaaced82fbc, type: 3}
+    - {fileID: 8300000, guid: eab5afd6094df8547b20d1559f1198e5, type: 3}
+    - {fileID: 8300000, guid: e54c2dc6f0e033645900e488a384b65f, type: 3}
+    - {fileID: 8300000, guid: abfbc64d7e9cefd459b561c8cf23b329, type: 3}
+    - {fileID: 8300000, guid: 71eb9610a3c2caf45a5efa79ea3620e0, type: 3}
+    - {fileID: 8300000, guid: 5b146fc12a72be64ebc71fa9f506d0aa, type: 3}
+    - {fileID: 8300000, guid: 2d25966be82ebf04691227ff8ee69020, type: 3}
+    - {fileID: 8300000, guid: 77e0ed6eed4e2324a87f64810bf76192, type: 3}
+    - {fileID: 8300000, guid: df124a0c10b0d614983612ff8d57d5a9, type: 3}
+    - {fileID: 8300000, guid: 0129ddc9960d31d41bd89a7576fc54c3, type: 3}
+    - {fileID: 8300000, guid: 5f6a09f2b37766c4a89a9cee26d8d104, type: 3}
+    - {fileID: 8300000, guid: 4bf739a0160f9484a96fcf9511ee42c8, type: 3}
+    - {fileID: 8300000, guid: 08c9d1bd7fb9038489e18afa7043e78a, type: 3}
+    mixerGroup: {fileID: -8395488432963329303, guid: 1bc6e4d3426d54948ac7c9073b2564bd,
+      type: 2}
+    loop: 0
+    playOnAwake: 0
+    frequentSound: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 0
+    volume: 0.4
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 1
+    reverbZoneMix: 0
+    dopplerLevel: 0
+    spread: 360
+    minDistance: 1
+    maxDistance: 5
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  - clips:
+    - {fileID: 8300000, guid: 911287138533f0c47957b4fe0986d486, type: 3}
+    - {fileID: 8300000, guid: d643bc9ad94a84c4a8e80d1fddb0074f, type: 3}
+    - {fileID: 8300000, guid: 8edbc9593d3292a4eba411bc313ba570, type: 3}
+    - {fileID: 8300000, guid: 54dd0f6354d20ee4cb5e57b535436653, type: 3}
+    - {fileID: 8300000, guid: 68b67111d135d294186dfdd7e5c2b3f6, type: 3}
+    - {fileID: 8300000, guid: ae058cd5aa1befb47b17eac766e2e9a4, type: 3}
+    - {fileID: 8300000, guid: 9d4c3df2f17f5264190cb31d5f3462f3, type: 3}
+    - {fileID: 8300000, guid: d1383d97d558d7649afa8d2932200da7, type: 3}
+    - {fileID: 8300000, guid: 60aa25f6575e37540bce238f81feb29f, type: 3}
+    - {fileID: 8300000, guid: a32fdc6becfd17246821a1827fa0eeb4, type: 3}
+    - {fileID: 8300000, guid: f36f311d783a19f4faf3c7d3f41ab41a, type: 3}
+    - {fileID: 8300000, guid: 993d2922bb518d4448f49c7ff2fe60b1, type: 3}
+    - {fileID: 8300000, guid: 48222401e7a7b5b429275680ba91cfa3, type: 3}
+    - {fileID: 8300000, guid: 0c4dad76d11a2434fadba87ee18b92d7, type: 3}
+    - {fileID: 8300000, guid: 5449ba4be363ea04abdf7da393617f67, type: 3}
+    - {fileID: 8300000, guid: 6ca61214749976d4cb9b8796d34e9c35, type: 3}
+    - {fileID: 8300000, guid: fe0f2e8fcba2afe48a2fdde2cfd12b5e, type: 3}
+    - {fileID: 8300000, guid: 34aa360f3494c9f40b5c491789067a76, type: 3}
+    - {fileID: 8300000, guid: 7d61ba979ca001140a3ae3b56454c782, type: 3}
+    - {fileID: 8300000, guid: 2e5d2037e2f18514a81fc3da3bb4c48b, type: 3}
+    - {fileID: 8300000, guid: 231fbe957a0e34547b0ae424b2d81d1f, type: 3}
+    - {fileID: 8300000, guid: 182e99d056460174bbaab58e6a8611aa, type: 3}
+    - {fileID: 8300000, guid: c0652d60a5f81a244a68b661f06e9f03, type: 3}
+    - {fileID: 8300000, guid: 09922a1702bf3ff48ae595c6ee418799, type: 3}
+    - {fileID: 8300000, guid: 0563aa8cd1ff5c24fa53d549496dc290, type: 3}
+    mixerGroup: {fileID: -8395488432963329303, guid: 1bc6e4d3426d54948ac7c9073b2564bd,
+      type: 2}
+    loop: 0
+    playOnAwake: 0
+    frequentSound: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 0
+    volume: 0.4
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 1
+    reverbZoneMix: 0
+    dopplerLevel: 0
+    spread: 360
+    minDistance: 1
+    maxDistance: 5
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  materialToMatch: {fileID: 13400000, guid: 7fd2ed2caca9dd94da1edae47822a11a, type: 2}
