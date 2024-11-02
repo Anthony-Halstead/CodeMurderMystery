@@ -27,10 +27,10 @@ public class ParticleBuilder
     public void Play()
     {
         if (!particleManager.CanPlayParticle(particleData)) return;
-        ParticleEmitter particleEmitter = particleManager.Get();
-        particleEmitter.Initialize(particleData);
+        ParticleEmitter particleEmitter = particleManager.Get();      
         particleEmitter.transform.position = position;
         particleEmitter.transform.parent = parent;
+        particleEmitter.Initialize(particleData);
         if (particleData.frequentParticle)
         {
             particleManager.FrequentParticleEmitters.Enqueue(particleEmitter);

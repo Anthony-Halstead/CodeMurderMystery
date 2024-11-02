@@ -4,9 +4,6 @@ using UnityEngine;
 [RequireComponent(typeof(AnimationEventReceiver))]
 public class FootEffectHandler : EffectHandler
 {
-   
-   
-  
     [Header("Foot Transforms")]
     [SerializeField] Transform leftFoot;
     [SerializeField] Transform rightFoot;
@@ -103,66 +100,14 @@ public class FootEffectHandler : EffectHandler
                         .WithPosition(objPosition.position)
                         .Play();            
             }
-            /*        else
-                    {
-                        // Use fallback sound
-                        if (fallBackFootstepSound != null)
-                        {
-                            SoundManager.Instance.CreateSound()
-                                .WithSoundData(fallBackFootstepSound)
-                                .WithRandomPitch()
-                                .WithPosition(objPosition.position)
-                                .Play();
-                        }
-                    }
-
-                    if (footstepMaterialToParticle.TryGetValue(physMat, out PhysicalParticleLibrary pLibrary) && footstepMaterialToParticle.Count > 0)
-                    {
-                        if (isParticleDinamicallyEffectedBySpeed)
-                        {
-                            ApplyDynamicParticle(ref pLibrary);
-                        }
-
+            if (footstepMaterialToParticle.TryGetValue(physMat, out PhysicalParticleLibrary pLibrary) && footstepMaterialToParticle.Count > 0)
+            {
                         ParticleManager.Instance.CreateParticle()
-                                .WithParticleData(pLibrary.Data[0])
+                                .WithParticleData(pLibrary.Data)
                                 .WithPosition(objPosition.position)
-                                .WithParent(ParticleManager.Instance.transform)
                                 .Play();
 
-                    }
-                    else
-                    {
-                        // Use fallback particle
-                        if (fallBackFootstepParticle != null)
-                        {
-                            ParticleManager.Instance.CreateParticle()
-                                .WithParticleData(fallBackFootstepParticle)
-                                .WithPosition(objPosition.position)
-                                .WithParent(ParticleManager.Instance.transform)
-                                .Play();
-                        }
-                    }
-                }
-                else
-                {
-                    // Use fallback effects if physMat is null
-                    if (fallBackFootstepSound != null)
-                    {
-                        SoundManager.Instance.CreateSound()
-                            .WithSoundData(fallBackFootstepSound)
-                            .WithRandomPitch()
-                            .WithPosition(objPosition.position)
-                            .Play();
-                    }
-
-                    if (fallBackFootstepParticle != null)
-                    {
-                        ParticleManager.Instance.CreateParticle()
-                            .WithParticleData(fallBackFootstepParticle)
-                            .WithPosition(objPosition.position)
-                            .WithParent(ParticleManager.Instance.transform)
-                            .Play();
-                    }*/
+            }               
         }
     }
 

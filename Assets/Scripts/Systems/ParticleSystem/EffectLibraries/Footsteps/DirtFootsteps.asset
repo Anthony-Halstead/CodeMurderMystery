@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42cf7e813f5352c4bb849d3476cc352e, type: 3}
   m_Name: DirtFootsteps
   m_EditorClassIdentifier: 
-  data: []
-  materialToMatch: {fileID: 0}
+  data:
+    vfxPrefab: {fileID: 2697844078938091617, guid: e627c7bc7ec0ca4449e89f3ee5652153,
+      type: 3}
+    frequentParticle: 1
+    particlePositionOffset: {x: 0, y: 0, z: 0}
+    particleRotationOffset: {x: 0, y: 0, z: 0}
+  materialToMatch: {fileID: 13400000, guid: cff6a3f6486c3994dbb7825355dbe1a2, type: 2}

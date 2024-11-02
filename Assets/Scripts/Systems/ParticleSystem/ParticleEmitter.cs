@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class ParticleEmitter : MonoBehaviour
 {
+    private GameObject vfxInstance;
     public ParticleData Data { get; private set; }
-    Coroutine playingCoroutine;
+    private Coroutine playingCoroutine;
 
     public void Play()
     {
@@ -12,13 +13,20 @@ public class ParticleEmitter : MonoBehaviour
         {
             StopCoroutine(playingCoroutine);
         }
-        Data.vfx.Play();
+        vfxInstance.GetComponent<ParticleSystem>().Play();
         playingCoroutine = StartCoroutine(WaitForEffectToEnd());
+    }
+
+    public void Initialize(ParticleData data)
+    {
+        Data = data;
+
+            vfxInstance = Instantiate(Data.vfxPrefab,transform.position+ Data.particlePositionOffset, transform.rotation * Quaternion.Euler(Data.particleRotationOffset),transform);
     }
 
     IEnumerator WaitForEffectToEnd()
     {
-        yield return new WaitWhile(() => Data.vfx.isPlaying);
+        yield return new WaitWhile(() => vfxInstance.GetComponent<ParticleSystem>().isPlaying);
         ParticleManager.Instance.ReturnToPool(this);
     }
 
@@ -29,14 +37,7 @@ public class ParticleEmitter : MonoBehaviour
             StopCoroutine(playingCoroutine);
             playingCoroutine = null;
         }
-
-        Data.vfx.Stop();
+        vfxInstance.GetComponent<ParticleSystem>().Stop();
         ParticleManager.Instance.ReturnToPool(this);
     }
-
-    public void Initialize(ParticleData data)
-    {
-        Data = data;
-    }
-
 }

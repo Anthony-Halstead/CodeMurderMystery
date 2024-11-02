@@ -95181,7 +95181,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cc14ad84ea877a949808a3ee6a640bd0, type: 2}
   - {fileID: 11400000, guid: 22aeec1358c8c2443afa5dca2de7d812, type: 2}
   - {fileID: 11400000, guid: 8c4f7a4ebf54c954cb4437e2a263e057, type: 2}
-  footStepParticleLibraries: []
+  footStepParticleLibraries:
+  - {fileID: 11400000, guid: 25715c4637c4a3d47bae7de368ed43c1, type: 2}
+  - {fileID: 11400000, guid: a50f9eda36d590d47a75fb72be9925ff, type: 2}
+  - {fileID: 11400000, guid: 3562041b13b962446959965c40bd0c36, type: 2}
   fallBackFootstepSound:
     clips: []
     mixerGroup: {fileID: 0}
@@ -95207,7 +95210,7 @@ MonoBehaviour:
     ignoreListenerPause: 0
     rolloffMode: 0
   fallBackFootstepParticle:
-    vfx: {fileID: 0}
+    vfxPrefab: {fileID: 0}
     frequentParticle: 0
     particlePositionOffset: {x: 0, y: 0, z: 0}
     particleRotationOffset: {x: 0, y: 0, z: 0}
@@ -318496,6 +318499,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517716475723462093, guid: 101c9fb44a4f30b4f907d53d50af1910,
+        type: 3}
+      propertyPath: maxParticleInstances
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
