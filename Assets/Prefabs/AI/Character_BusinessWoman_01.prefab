@@ -2041,6 +2041,8 @@ GameObject:
   - component: {fileID: 9015556395503766483}
   - component: {fileID: 1845646931459159254}
   - component: {fileID: 5714899511850661581}
+  - component: {fileID: 7228843327292663679}
+  - component: {fileID: 4551512582792058345}
   m_Layer: 7
   m_Name: Character_BusinessWoman_01
   m_TagString: NPC
@@ -2332,6 +2334,119 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7228843327292663679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6708881067129692496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa4bf773d9d2c64cbe82a3ae9049e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationEvents:
+  - eventName: StepL
+    OnAnimationEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4551512582792058345}
+          m_TargetAssemblyTypeName: FootEffectHandler, Assembly-CSharp
+          m_MethodName: HandleLeftFoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: StepR
+    OnAnimationEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4551512582792058345}
+          m_TargetAssemblyTypeName: FootEffectHandler, Assembly-CSharp
+          m_MethodName: HandleRightFoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &4551512582792058345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6708881067129692496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d9f3869af4c87468695b9c3b8e6eda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoredMaterials: []
+  materialCheckDistance: 2
+  leftFoot: {fileID: 7531772248822382623}
+  rightFoot: {fileID: 2150092841086661039}
+  footStepSoundLibraries:
+  - {fileID: 11400000, guid: a0974d3e25b189645a183469e30d5617, type: 2}
+  - {fileID: 11400000, guid: 991d797ad8ef45d4bb0d58773154489c, type: 2}
+  - {fileID: 11400000, guid: 683288d21dec24b4c963b10c64f23e23, type: 2}
+  - {fileID: 11400000, guid: 904a15f0d66571b4f874b63e50de747b, type: 2}
+  - {fileID: 11400000, guid: ac67c0022a551db448969d78fec128fa, type: 2}
+  - {fileID: 11400000, guid: 2371e2fa4dcd1e24d80479d720ad7b09, type: 2}
+  - {fileID: 11400000, guid: 966c293da0e77ee49abaae6c7d0ae684, type: 2}
+  - {fileID: 11400000, guid: c12c6413595ca22499b0cde6eb6725d5, type: 2}
+  - {fileID: 11400000, guid: 0680a95a0733f994e9447422ff3908f5, type: 2}
+  - {fileID: 11400000, guid: 2b3e8779c7b807a4f948134c93a2dd17, type: 2}
+  - {fileID: 11400000, guid: e08f747a7167b77409cfc72add25ff85, type: 2}
+  - {fileID: 11400000, guid: 299ef5d8b6e28a34cbe36322b017ec72, type: 2}
+  - {fileID: 11400000, guid: 3d182c719cf08504f8be062c670fb61a, type: 2}
+  - {fileID: 11400000, guid: cc14ad84ea877a949808a3ee6a640bd0, type: 2}
+  - {fileID: 11400000, guid: 22aeec1358c8c2443afa5dca2de7d812, type: 2}
+  - {fileID: 11400000, guid: 8c4f7a4ebf54c954cb4437e2a263e057, type: 2}
+  footStepParticleLibraries:
+  - {fileID: 11400000, guid: a50f9eda36d590d47a75fb72be9925ff, type: 2}
+  - {fileID: 11400000, guid: 25715c4637c4a3d47bae7de368ed43c1, type: 2}
+  - {fileID: 11400000, guid: 3562041b13b962446959965c40bd0c36, type: 2}
+  fallBackFootstepSound:
+    clips: []
+    mixerGroup: {fileID: 0}
+    template: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    frequentSound: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 1
+    pitch: 1
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0
+  fallBackFootstepParticle:
+    vfxPrefab: {fileID: 0}
+    frequentParticle: 0
+    particlePositionOffset: {x: 0, y: 0, z: 0}
+    particleRotationOffset: {x: 0, y: 0, z: 0}
+  enableDebugVisualization: 1
+  debugRayColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &6902312590678979923
 GameObject:
   m_ObjectHideFlags: 0

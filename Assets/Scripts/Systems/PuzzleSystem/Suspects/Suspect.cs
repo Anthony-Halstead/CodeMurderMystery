@@ -8,6 +8,7 @@ using UnityEngine;
 /// Allows a simple way to track the suspects who are in the game and whether or not they are the killer. 
 /// </summary>
 [RequireComponent(typeof(SphereCollider), typeof(EnableInteractUI),typeof(Animator))]
+[RequireComponent(typeof(FootEffectHandler))]
 public class Suspect : MonoBehaviour, IInteractable, ICustomizableComponent
 {
     [SerializeField] SuspectData data;

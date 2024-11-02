@@ -50,6 +50,39 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-3549079798123177686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56008f103e07e90438640017ffd81e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - eventName: StepL
+    triggerTime: 0.404
+    clipsMask: 2
+    cloneFormation: 0
+    cloneSpacing: 1
+    useBatchSlider: 1
+    batchTriggerTime: 0.404
+    individualTriggerTimes:
+    - 0
+  - eventName: StepR
+    triggerTime: 0.87
+    clipsMask: 2
+    cloneFormation: 0
+    cloneSpacing: 1
+    useBatchSlider: 1
+    batchTriggerTime: 0.87
+    individualTriggerTimes:
+    - 0
+  isPreviewing: 0
+  foldout: 1
 --- !u!1101 &-3347648386973553542
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -189,7 +222,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5707831133978740975}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -3549079798123177686}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
